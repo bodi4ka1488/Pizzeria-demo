@@ -3,58 +3,59 @@
 
 .page1 {
   background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('../images/bg_1.jpg');
-    
-    width: 100%;
+  background-repeat: no-repeat;
+  background-size: 1600px;
+  background-position: center;
+    width: $page-width;
     height: $page-height;
     margin: 0 auto;
     display: flex;
     justify-content: space-evenly;
-}
-.page1-foto{
-    width: 550px;
-    background: url("../images/bg_2.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-left: 110px;
-    margin-top: 100px;
-}
-.text-containet-page1{
-    margin-top: 100px;
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    align-content: flex-start;
-}
-.text-containet-page1>p{
-    color: $font-hover;
-    font-size: 50px;
-    font-family: 'Square Peg', cursive;
-    padding-top: 85px;
-}
-.text-containet-page1>h2{
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    font-size: 50px;
-    padding-top: 10px;
-}
-.text-containet-page1>span{
-    padding-top: 30px;
-    font-size: 23px;
-    width: 570px;
-    
-}
-.page1-btns{
-    margin-top: 60px;
-    display: flex;
-    gap: 5px;
-}
-.page1-btns>div{
-    padding: 20px 30px;
-    border: 1px solid $font-color;
-}
-.page1-btns>div:hover{
-    border: 1px solid $font-hover;
+    .page1-foto{
+        width: 550px;
+        background: url("../images/bg_2.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-left: 110px;
+        margin-top: 100px;
+    }
+    .text-containet-page1{
+        margin-top: 100px;
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        align-content: flex-start;
+        p{
+            color: $font-hover;
+            font-size: 50px;
+            font-family: 'Square Peg', cursive;
+            padding-top: 85px;
+        }
+        h2{
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            font-size: 50px;
+            padding-top: 10px;
+        }
+        span{
+            padding-top: 30px;
+            font-size: 23px;
+            width: 570px;
+        }
+        .page-btns{
+            margin-top: 60px;
+            display: flex;
+            gap: 5px;
+            div{
+                padding: 20px 30px;
+                border: 1px solid $font-color;
+            }
+            div:hover{
+                border: 1px solid $font-hover;
+                background-color: $font-hover;
+                color: black;
 
-    background-color: $font-hover;
-    color: black;
+            }
+        }
+    }
 }

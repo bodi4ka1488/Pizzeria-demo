@@ -1,0 +1,40 @@
+.page11{
+    width: 100%;
+    height: 560px;
+    background: black;
+    display: flex;
+    flex-direction: row;
+}
+#map{
+height: 560px;
+width: 50%;
+}
+.contact{
+    padding-left: 60px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact>h2{
+    font-size: 30px;
+    font-weight: 200;
+}
+.form-grop{
+    padding: 20px 0 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+button{
+    width: 90px;
+    height: 50px;
+    background-color: #f8c364;
+    cursor: pointer;
+}
+input , textarea{
+    background-color: black;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0;
+    border-bottom: 1px solid white;
+}

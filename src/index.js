@@ -1,6 +1,14 @@
 // Test import of a JavaScript module
 import { slider } from '@/js/slider'
 
+import { map } from '@/js/map'
+
+import { page9 } from '@/js/page9'
+
+
+
+
+
 // // Test import of an asset
 // import webpackLogo from '@/images/webpack-logo.svg'
 

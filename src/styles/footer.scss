@@ -1,0 +1,147 @@
+footer{
+    width: 100%;
+    height: 700px;
+    background-color: black;
+    line-height: 30px;
+}
+footer>.social{
+    background-color: black;
+
+}
+.footerInfo{
+    height:400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 70px;
+}
+footer h2{
+    font-size: 25px;
+    font-weight: 300;
+    padding-bottom: 30px;
+}
+footer p{
+    font-size: 20px;
+}
+.boxFooter:nth-child(2){
+    width: 570px;
+}
+.boxFooter:nth-child(3)>p{
+    font-size: 20px;
+}
+.boxFooter:nth-child(3){
+    width: 150px;
+}
+.boxFooter{
+    width: 220px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.blogContent{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.fotoFooter{
+    width: 120px;
+    height: 105px;
+}
+.foto1footer{
+    background: url(../images/image_1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.foto2footer{
+    background: url(../images/image_2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.blogInfo p{
+    font-size: 17px;
+}
+.blogInfo h4{
+    font-weight: 500;
+}
+.blogInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+.icon1,
+.icon2,
+.icon3{
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    
+}
+.icon1{
+    background: url(../images/calendar.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.icon2{
+    background: url(../images/user.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.icon3{
+    background: url(../images/comment.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.fotterIcons{
+    margin-right: 20px;
+}
+
+.icon-phone{
+    background: url(../images/phone-call.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: invert(45%); 
+    width: 30px;
+    height: 30px;
+
+}
+.icon-location{
+    background: url(../images/location-pin.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 30px;
+}
+.icon-email{
+    background: url(../images/email.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+}
+.boxFooter:nth-child(4)>div{
+    display: flex;
+    flex-direction: row;
+}
+.boxFooter:nth-child(4){
+    width: 300px;
+}
+.social{
+    width: auto;
+    margin-left: 100px;
+}
+.copyright{
+    text-align: center;
+    margin-top: 130px;
+}
+
+
