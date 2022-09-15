@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+
+
+.page3 {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('../images/bg_1.jpg');
+  width: 100%;
+    height: $page-height;
+    margin: 0 auto;
+    display: none;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+}
+.page3-foto{
+    width: 550px;
+    background: url("../images/bg_1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 110px;
+    margin-top: 100px;
+}
+.text-containet-page3{
+    margin-top: 100px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    text-align: right;
+}
+.text-containet-page3>p{
+    color: $font-hover;
+    font-size: 50px;
+    font-family: 'Square Peg', cursive;
+    padding-top: 85px;
+}
+.text-containet-page3>h2{
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 50px;
+    padding-top: 10px;
+}
+.text-containet-page3>span{
+    padding-top: 30px;
+    font-size: 23px;
+    width: 630px;
+    
+}
+.page3-btns{
+    margin-top: 60px;
+    margin-left: 40px;
+    display: flex;
+    gap: 5px;
+    justify-content: flex-end;
+}
+.page3-btns>div{
+    padding: 20px 30px;
+    border: 1px solid $font-color;
+}
+.page3-btns>div:hover{
+    border: 1px solid $font-hover;
+
+    background-color: $font-hover;
+    color: black;
+}

@@ -1,0 +1,133 @@
+.page7{
+    width: 100%;
+    height: 800px;
+    background: url(../images/bg_4.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.page7>div:nth-child(2){
+    display: flex;
+    gap: 30px;
+}
+.quaters{
+  width: 160px;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+    background: url(../images/quaters-removebg-preview.png);
+}
+p{
+    color: #6d6d6e;
+    font-size: 17px;
+}
+.page7 h3{
+    font-size: 16px;
+    font-weight: 300;
+    padding-right: 20px;
+    white-space: nowrap;
+    padding-top: 10px;
+}
+.head{
+    margin: 60px 0 70px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+.head p{
+    width: 650px;
+    text-align: center;
+}
+.head h2{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+
+}
+.page7Foto{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.foto1{
+    background: url(../images/pizza-1.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.foto2{
+    background: url(../images/pizza-2.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.foto3{
+    background: url(../images/pizza-3.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.foto4{
+    background: url(../images/pizza-4.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.foto5{
+    background: url(../images/pizza-5.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.foto6{
+    background: url(../images/pizza-6.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.foto7{
+    background: url(../images/pizza-7.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.foto8{
+    background: url(../images/pizza-8.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.containerPage7{
+    display: flex;
+    margin-bottom: 30px;
+}
+.line{
+    border-bottom: 1px dashed #b5dd46;
+    height: auto;
+    width: 100%;
+}
+.containerPage7>div:nth-child(2){
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.pizzaNameAndPrice{
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+}
+.page7 span{
+    font-size: 20px;
+    padding: 10px 0 0 20px;
+    font-weight: 300;
+    color: $font-hover;
+    width: fit-content;
+}

@@ -1,0 +1,58 @@
+header{
+    height: 100px;
+    width: 100%;
+    background: #121618;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .logo{
+    text-align: center;
+    color: $font-color;
+    width: 40%;
+  }
+  .logo>div{
+      display: flex;
+      gap: 10px;
+      padding-left: 33%;
+
+  }
+  .underLogo{
+      text-transform: uppercase;
+      font-size: 1px;
+      letter-spacing: 3px;
+      color: $font-hover;
+  }
+  .foto{
+    width: 30px;
+    height: 30px;
+    background: url("../images/bg_2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .dws-menu ul,
+.dws-menu ol{
+    list-style: none;
+}
+.dws-menu > ul{
+    display: flex;
+    justify-content: center;
+}
+.dws-menu > ul li a{
+    display: block;
+    padding: 15px 30px 15px 30px;
+    color: $font-color;
+    text-decoration: none;
+    font-size: 15px;
+    transition: all 0.5s ease;
+
+}
+
+.dws-menu li a:hover{
+    color: $font-hover;
+    transition: all 0.3s ease;
+}
+
+
+

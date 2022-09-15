@@ -1,0 +1,80 @@
+.page8{
+    background: url(../images/bg_2.jpg);
+    background-position: center;
+    width: 100%;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+
+}
+.headFoto{
+    height: 45%;
+    display: flex;
+
+}
+.headFoto div{
+    width: 27%;
+}
+.headFoto >div:nth-child(1){
+    background: url(../images/gallery-1.jpg);
+    background-size: cover;
+    background-position: center;
+} 
+.headFoto >div:nth-child(2){
+    background: url(../images/gallery-2.jpg);
+    background-size: cover;
+    background-position: center;
+} 
+.headFoto >div:nth-child(3){
+    background: url(../images/gallery-3.jpg);
+    background-size: cover;
+    background-position: center;
+} 
+.headFoto >div:nth-child(4){
+        background: url(../images/gallery-4.jpg);
+        background-size: cover;
+        background-position: center;
+} 
+.bodyPage8{
+    height: 55%;
+    background-color: rgba(0, 0, 0, 0.696);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+
+}
+.containerPage8{
+    width: 150px;
+    height: 200px;
+    text-align: center;
+}
+.containerPage8 span{
+    color: #f9c464;
+    font-size: 28px;
+    display: block;
+    padding: 20px 0 20px 0;
+}
+.containerPage8>.icon{
+    border: 2px solid #f9c464;
+}
+.containerPage8>p{
+    color: #b2b6b1;
+
+}
+.page8Icon1{
+    background: url(../images/pizzaIcon.png);
+    background-size: cover;
+}
+.page8Icon2{
+    background: url(../images/award.png);
+    background-size: cover;
+}
+.page8Icon3{
+    background: url(../images/customer-service.png);
+    background-size: cover;
+}
+.page8Icon4{
+    background: url(../images/chef.png);
+    background-size: contain;
+}
